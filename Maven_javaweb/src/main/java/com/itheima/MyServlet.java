@@ -10,6 +10,7 @@ public class MyServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);
         System.out.println("修改一下内容看看");
+        System.out.println("在github上面修改，看看下面的更新");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
